@@ -1,0 +1,56 @@
+# By Salma E-Commerce Project TODO
+
+- [x] Database schema and migration for categories, products, cart items, orders, order items, coupons, homepage toggles, and shipping rules
+- [x] Backend tRPC routers for catalog, cart, checkout, discount quotes, orders, and admin management
+- [x] Cinematic storefront with CSS 3D diamond ring hero, editorial collections, product cards, filters, quick view, wishlist, compare, product detail, 360° placeholder, cart, and COD checkout
+- [x] Customer order history with invoice-ready print action and order confirmation route
+- [x] Role-based admin panel using DashboardLayout for products, categories, orders, coupons, shipping rules, homepage visibility, and settings
+- [x] Vitest unit tests for auth logout and checkout quote calculations
+- [x] Desktop and mobile visual verification plus production build verification
+- [x] Add S3-backed local media upload UI for category banners/icons and multi-image product galleries
+- [x] Keep Stripe integration architected and intentionally inactive until live payment credentials and business settings are supplied
+- [x] Added product and category promotion fields with active pricing and flash-sale windows
+- [x] Connected checkout shipping quotes to persisted active shipping rules
+- [x] Added backend product update/delete, category media URL fields, category visibility/reordering, and order CSV export
+- [x] Added shop color and price-range controls, server-backed pagination, and a visible compare tray
+- [x] Implement dedicated Journal section with editorial articles and brand storytelling
+- [x] Add catalog hover-to-zoom effect on product imagery for detailed inspection
+- [x] Implement AI-powered 'You May Also Like' cross-selling recommendation engine on product detail pages
+- [x] Enhance admin image uploads to seamlessly handle single and multiple local disk photo selections with storage persistence
+- [x] Fix catalog product query to return null instead of undefined when a slug has no database row
+- [x] Fix admin database procedures passing a Promise as the Drizzle table to select()
+- [x] Replace the simple homepage orbital illustration with the generated premium multi-ring jewelry hero visual
+- [x] Add responsive cinematic motion and verify desktop/mobile hero presentation
+- [x] Create missing footer destination pages (Our Story / About, Shipping & Returns, Contact Us)
+- [x] Connect all footer links to working routes
+- [x] Add admin control to edit footer content and links
+- [x] Add persistent contact settings and customer inquiry inbox in admin console
+- [x] Add rich-text/formatting helper for footer content editing
+- [x] Add WhatsApp and social URLs (Facebook, Instagram, WhatsApp) fully manageable by admin
+- [x] Optimize homepage 3D/hero visual for tablet and hide/adjust when width <= 400px
+- [x] Enhance admin panel usability with intuitive tabs and quick actions
+- [x] Update category form to use upload-only controls for banner and icon (remove manual URL text inputs)
+- [x] Update product form to use upload-only controls for images (remove manual URL text inputs)
+- [x] Enhance coupon management with usage limits (how many orders/uses) and application rules
+- [x] Add store-wide percentage discount option that applies automatically across all catalog products
+- [x] Make Contact and Shipping page content fully editable by admin in the atelier console
+- [x] Make coupon quote response distinguish below-minimum and exhausted coupons so Cart and Checkout show accurate validation
+- [x] Apply the enabled store-wide percentage discount across every catalog product with explicit precedence
+- [x] Move remaining Contact and Shipping page copy and CTA content into admin-managed settings
+- [x] Create dedicated Special Offers page displaying discounted products and active store-wide promotion
+- [x] Add Special Offers to storefront header navigation and footer
+- [x] Verify admin contact info, social URLs, and store discount settings update and persist correctly
+- [x] Redesign admin atelier console layout to be full-width, responsive, and free of horizontal scrolling
+- [x] Refactor admin product, order, and inquiry tables to be fully responsive without forced horizontal overflow
+- [x] Visually verify atelier console across all management tabs after full-width layout updates
+- [ ] Ensure Special Offers link appears in admin-managed footer explore links even when custom footer settings exist
+- [ ] Perform end-to-end verification of admin contact info, social URLs, and store-wide discount settings
+- [ ] Refactor admin product, order, and inquiry views into responsive stacked cards or fluid layouts to eliminate horizontal overflow
+- [ ] Capture verification screenshots of the atelier console across all management tabs
+- [ ] Add admin-managed shipping rules and ensure free vs charged delivery is consistent across all pages and checkout
+- [ ] Create dedicated Brand & Logo management tab in atelier console with persistent branding
+- [ ] Implement printable/PDF-ready customer invoice with logo and brand styling
+- [ ] Add professional light and dark theme toggling with refined typography and background tokens
+- [ ] Add branded Facebook and WhatsApp icons alongside Instagram in the footer
+- [ ] Implement loading states and success notifications for the PDF invoice generation action in admin orders
+- [ ] Expand Brand & Logo Atelier Tab to allow administrators to customize footer text and social links

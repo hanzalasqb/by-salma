@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786768675409,
+      "tag": "0000_naive_zemo",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786769354592,
+      "tag": "0001_lively_stellaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786769901084,
+      "tag": "0002_lovely_silvermane",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786777610062,
+      "tag": "0003_flat_shiver_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786778264317,
+      "tag": "0004_glorious_human_fly",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1786778842890,
+      "tag": "0005_omniscient_squadron_sinister",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1786778877197,
+      "tag": "0006_mighty_chat",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1786778951225,
+      "tag": "0007_previous_yellowjacket",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1786785599385,
+      "tag": "0008_bizarre_nicolaos",
+      "breakpoints": true
+    }
+  ]
+}
